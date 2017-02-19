@@ -2,7 +2,7 @@ from django.conf.urls import url
 from django.conf import settings
 
 from django_stormpath import views
-
+import django
 
 urlpatterns = [
     url(r'^login/$', views.stormpath_id_site_login, name='stormpath_id_site_login'),
